@@ -41,7 +41,6 @@ graph TD;
 ```
 
 ```mermaid
-
 graph TD;
     A[Sorted Array] --> B(Start)
     B --> C{Find middle element}
@@ -54,14 +53,14 @@ graph TD;
     F --> C
 
     %% Add titles to each node
-    style A fill:#f9f,stroke:#333,stroke-width:4px;
-    style B fill:#f9f,stroke:#333,stroke-width:4px;
-    style C fill:#f9f,stroke:#333,stroke-width:4px;
-    style D fill:#f9f,stroke:#333,stroke-width:4px;
-    style E fill:#f9f,stroke:#333,stroke-width:4px;
-    style F fill:#f9f,stroke:#333,stroke-width:4px;
-    style G fill:#f9f,stroke:#333,stroke-width:4px;
-    style H fill:#f9f,stroke:#333,stroke-width:4px;
+    style A fill:#EAEAEA,stroke:#333,stroke-width:2px;
+    style B fill:#EAEAEA,stroke:#333,stroke-width:2px;
+    style C fill:#EAEAEA,stroke:#333,stroke-width:2px;
+    style D fill:#EAEAEA,stroke:#333,stroke-width:2px;
+    style E fill:#EAEAEA,stroke:#333,stroke-width:2px;
+    style F fill:#EAEAEA,stroke:#333,stroke-width:2px;
+    style G fill:#EAEAEA,stroke:#333,stroke-width:2px;
+    style H fill:#EAEAEA,stroke:#333,stroke-width:2px;
 
     ```
 
