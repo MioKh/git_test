@@ -1,21 +1,13 @@
-body {
-  display: grid;
-  grid-template-rows: 50px 1fr 50px;
-  grid-template-columns: 1fr;
-  min-height: 100vh;
+html, body {
+  height: 100%;
   margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
-header { background-color: lightblue; }
-nav { background-color: lightgreen; }
-main { background-color: lightyellow; }
-article { background-color: rgb(252, 252, 169); padding: 1em; margin: 1em 0; }
-aside { background-color: lightcoral; }
-footer { background-color: lightpink; }
-  
-
-header, nav, main, article, aside, footer {
-  display: grid;
-  grid-template-rows: auto 1fr auto;
-  grid-template-columns: 1fr;
+body {
+  display: flex;
+  flex-direction: column;
 }
+
+
